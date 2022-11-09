@@ -126,6 +126,34 @@ nav a {
     color:green;
 }
 
+.contact contactBar {
+    display: flex;
+    /* flex-wrap:wrap; */
+    /* justify-content: space-around; */
+    align-items:center;
+    /* height: 100%; */
+}
+
+.contact contactBar a {
+    color: var(--navbar);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    /* font-style: normal; */
+    background-color: black;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 0.2em; */
+    /* background-position: bottom; */
+    transition: all 0.25s ease-in;
+    margin: 0 2px 1px;
+    /* display:inline-block; */
+}
+
+.contact contactBar a:hover {
+    background-size:100% 88%;
+    color:var(--textback);
+}
+
 /* Portfolio Project Images - add screenshot of projects when finished */
 .coming-soon {
     background-image: url("./images/coming-soon.jpg");
